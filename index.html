@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SATVIK V - Personal Website</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f9f9f9;
+      color: #333333;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #333333;
+      padding: 30px;
+      text-align: center;
+      color: #ffffff;
+    }
+
+    h1 {
+      font-size: 48px;
+      margin: 0;
+    }
+
+    nav {
+      background-color: #ffffff;
+      padding: 20px;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #333333;
+      padding: 10px;
+      margin: 0 15px;
+      font-size: 20px;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #ff6600;
+    }
+
+    section {
+      margin: 30px;
+    }
+
+    .about-me {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .about-me img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: contain;
+    }
+
+    .about-me p {
+      margin-left: 30px;
+      flex: 1;
+      font-size: 18px;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+    }
+
+    .project-card {
+      background-color: #ffffff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s;
+      cursor: pointer;
+    }
+
+    .project-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .project-card h3 {
+      font-size: 24px;
+      margin-top: 0;
+    }
+
+    .project-card p {
+      font-size: 16px;
+    }
+
+    footer {
+      background-color: #333333;
+      padding: 30px;
+      text-align: center;
+      color: #ffffff;
+    }
+
+    footer p {
+      margin: 0;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>SATVIK V</h1>
+    <p>Web Designer | Developer | Innovator</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+	<a href="#education">Education</a>
+	<a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <div class="about-me">
+      <img src="C:\Users\VINOTH RAJENDRAN\Desktop\Satvik\Satvik details\Satvik Photo.jpg" alt="My Photo">
+       <p>
+            Hello! I'm V.Satvik, currently pursuing my second year of <b>Computer Science Engineering (CSE)</b> at <a href="https://chennai.vit.ac.in/" target="_blank"><b>Vellore Institute of Technology (VIT)</a></b>. 
+            I have always been passionate about technology and its potential to transform the world.
+            In my academic journey, I've developed a keen interest in areas such as artificial intelligence, machine learning, and software development. 
+            I enjoy delving into complex algorithms and problem-solving challenges, constantly seeking to expand my knowledge and skills in these domains.
+            Beyond academics, I actively engage in various extracurricular activities. 
+
+            Outside the realm of technology, I have a passion for cricket,football and chess.I have attained <i><a href="https://ratings.fide.com/profile/25096133" target="_blank"> Fide rating </a></i>and took part in various chess competitions.
+            I believe in maintaining a balanced lifestyle and enjoy exploring new interests and experiences.
+        </p>
+    </div>
+  </section>
+    <section id="education">
+        <h2>Education<img src="C:\Users\VINOTH RAJENDRAN\Desktop\Satvik\Web programming\books.png" alt="Books Logo" style="width: 30px; vertical-align: middle;"></h2>
+        <p> 
+            I completed my secondary education at <a href="https://sboajc.org/" target="_blank"><b>SBOA School and Junior College</b></a>, where I obtained my<i> Higher Secondary Certificate (HSC)</i> with distinction.
+            Currently, I am enrolled in the<i> Bachelor of Technology (B.Tech)</i> program in Computer Science Engineering (CSE) at  <a href="https://chennai.vit.ac.in/" target="_blank"><b>Vellore Institute of Technology (VIT).</a>
+            VIT </b>is renowned for its excellence in technical education, and I am fortunate to be part of such a prestigious institution.
+        </p>
+    </section>
+	<section id="skills">
+        <h2>Skills <img src="C:\Users\VINOTH RAJENDRAN\Desktop\Satvik\Web programming\skills.png" alt="skills Logo" style="width: 30px; vertical-align: middle;"></h2>
+		<ol>
+		<li><dt>Programming languages</dt></li>
+        <ul>
+            <dt><li>Python</li>
+            <li>C and C++</li>
+            <li>Java</li></dt>
+        </ul><br>
+		<li>Web development</li>
+    </section>
+
+  <section id="projects">
+    <h2>My Projects</h2>
+    <div class="projects">
+      <div class="project-card">
+        <h3><a href="https://www.electronicshub.org/water-level-controller-using-8051-microcontroller/" target="_blank">Water level indicator</a></h3>
+        <p>Water Level Controller using 8051 Microcontroller project will help in automatically controlling the water motor by sensing the water level in a tank. This article explains you how to detect and control the water level in an overhead tank or any other container. This system monitors the water level of the tank and automatically switches ON the motor whenever tank is empty.</p>
+      </div>
+      <div class="project-card">
+        <h3>JOURNEY PLANNER</h3>
+        <p>This is an integrated service which provide all information about the rail and it’s routes for public. The proposed system provides information regarding time,and routes. This is a program that will take information (name) of the source station and the destination station, of Chennai  Railway system, from the user and display the  shortest path route to reach the destination. It will also be having a map for commuter’s better navigation.</p>
+		
+	  </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me <img src="C:\Users\VINOTH RAJENDRAN\Desktop\Satvik\Web programming\Phone.jpg" alt="skills Logo" style="width: 30px; vertical-align: middle;"></h2>
+    <p>Email: satvikvinoth272@gmail.com</p>
+    <p>Phone: 9840835810</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Satvik. All rights reserved.</p>
+  </footer>
+</body>
+</html>
